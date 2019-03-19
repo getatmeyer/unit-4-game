@@ -6,9 +6,28 @@ html, body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+   
 
 }
 h1 {
-    color: red;
-    font-size: 50px;
+    font-family: 'Lilita One', cursive;
+    color: black;
+    font-size: 45px;
+    text-align: center;
+    letter-spacing: 0.2rem;
+    padding-top: 5rem;
+}
+.container {
+    padding-left: 17rem; 
+    
+}
+.row {
+    width: 810px;
+    height: 196px;
+    margin-top: 40px, 0px, 0px, 0px;
+    padding: 40px, 20px, 30px, 20px;
+    line-height: 1rem;
+    text-align: center;
+    background-color: slategray;
+    border-radius: 25px;
 }
