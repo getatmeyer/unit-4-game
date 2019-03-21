@@ -34,6 +34,7 @@ h1 {
 p {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 17px;
+    margin-top: 5px;
 }
 #small-container {
     margin: 0 auto;
@@ -108,7 +109,7 @@ span {
 /* footer section */
 
 .content {
-  min-height: 35%;
+  min-height: 25%;
 }
   .content-inside {
   padding: 20px;
