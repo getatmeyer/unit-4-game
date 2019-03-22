@@ -1,8 +1,16 @@
 var counts= 0;
 var targetNumber = 40;
 var newhiddenValues = [4, 3, 12, 2 ]
+resetgame;
 
-$("#finalscore").text(targetNumber);
+    // set #finalscore == targetNumber
+    $("#finalscore").text(targetNumber);
+
+    // reset crystal collector game
+    function resetgame () {
+
+    }
+
 
     // ON-CLICK EVENT SECTION
 
