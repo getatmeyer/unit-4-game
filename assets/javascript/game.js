@@ -3,9 +3,8 @@ var win = 0; //hold the number of win input
 var loss= 0; // hold the number of losses input
 var counts= 0;
 // var targetNumber = 40;
-var targetNumber;
-
 var targetResult;
+
 // var score = [];
 var previous = 0;
 // $('numberWins').text(wins);
@@ -17,11 +16,15 @@ $(document).on("click", "img", function () {
     $("#currentScore").html(currentScore);
     console.log(currentScore);
     
-    if (currentScore == targetNumber) {
+    // if (currentScore == targetNumber) {
+        if (currentScore == targetResult) {
+
         win++;
         resetCrystal();
         alert("You guessed em' right!")
-    } else if (currentScore > targetNumber) {
+    // } else if (currentScore > targetNumber) {
+    } else if (currentScore > targetResult) {
+
         loss++;
         resetCrystal();
         alert("Try again!")
@@ -30,10 +33,10 @@ $(document).on("click", "img", function () {
 
 function resetCrystal() {
 
-    targetNumber = Math.floor(Math.random() * 120-19) + 19;
+    targetResult = Math.floor(Math.random() * 120-19) + 19;
 
-    $("#guessResults").html(targetNumber);
-    console.log("target Number is " + targetNumber);
+    $("#guessResults").html(targetResult);
+    console.log("target Number is " + targetResult);
 
     currentScore = 0;
 
