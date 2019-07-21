@@ -16,7 +16,7 @@ h1 {
     text-align: center;
     letter-spacing: 0.2rem;
     padding-top: 5rem;
-    margin-left: 140px;
+    margin-left: 60px;
 }
 .container {
     padding-left: 20rem; 
@@ -92,7 +92,7 @@ li {
     justify-content: center;
     display: flex;
     margin-top: 40px;
-    margin-left: 120px;
+    margin-left: 40px;
 }
 /* footer section */
 
