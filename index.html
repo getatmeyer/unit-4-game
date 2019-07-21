@@ -1,99 +1,84 @@
 <!DOCTYPE html>
-    <html>
-    <!-- head section -->
-    <head>
+<html>
+<!-- head section -->
+
+<head>
 
     <!-- title section -->
     <title>CRYSTAL COLLECTOR</title>
 
     <!-- link section -->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-
     <!-- google font section -->
     <link href="https://fonts.googleapis.com/css?family=Lilita+One" rel="stylesheet">
+</head>
 
-    </head>
+<!-- body section -->
 
-    <!-- body section -->
-    <body>
+<body>
 
     <!-- head section -->
-    <h1>CRYSTAL   COLLECTOR</h1>
+    <h1>CRYSTAL COLLECTOR</h1>
 
     <!-- paragraph section -->
     <div class="container">
         <div class="row">
             <p>You will be given a random number at the start of the game.
-            <br><br>
-            There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.
-            <br><br>
-            You win the game by matching your total score to random number, you lose the game if your<br>
-            total goes above the random number.
-            <br><br>
-            The value of each each crystal is hidden from you until you click on it.
-            Each time when the game starts,<br>the game will change the values of each crystal.
+                <br><br>
+                There are four crystals below. By clicking on a crystal you will add a specific amount of points to your
+                total score.
+                <br><br>
+                You win the game by matching your total score to random number, you lose the game if your<br>
+                total goes above the random number.
+                <br><br>
+                The value of each each crystal is hidden from you until you click on it.
+                Each time when the game starts,<br>the game will change the values of each crystal.
             </p>
-    </div>
-    </div>
-
-        <div id="small-container">
-            <div id="left-column">
-                <span>40</span>
-            </div>
-            <div id="mid-column">
-                <ul>
-                    <li>Wins: 0 </li>
-                    <li id="losses">Losses: 0 </li>
-                </ul>
-            </div>
-            <div id="right-column">
-                <span>Your Total Score is</span>
-            </div>
-            <div id="score">
-                <span id="finalscore">>0</span>
-            </div>
         </div>
+    </div>
 
-        <div id="crystalcontainer">
-        <div id="crystal-image">
+    <!-- <div id="mid-column"> -->
+    <div id="left-column">
+        <!-- <ul> -->
+            <!-- <li id="wins">Number Guessed: </li> -->
+            <!-- <li id="result">Number Guessed:</li> -->
+            <span>Number Guessed: </span id="guessResults"> </span>
+            <!-- <span id="result"> </span> -->
+        <!-- </ul> -->
+    </div>
 
+    <div id="right-column">
+        <span>Tally Crystal: <span id="currentcore">0</span>
+    </div>
+
+    </div>
+
+    <div id="crystal-image">
         <!-- crystal images section -->
         <img id="bluecrystal" src="assets/images/bluecrystal.png" alt="bluecrystal">
         <img id="greencrystal" src="assets/images/greencrystal.png" alt="greencrystal">
         <img id="redcrystal" src="assets/images/redcrystal.png" alt="redcrystal">
         <img id="yellowcrystal" src="assets/images/yellowcrystal.png" alt="yellowcrystal">
-        </div>
-        </div>
-        
-        <!--footer section -->
-        <div class="content">
+    </div>
+    </div>
+
+    <!--footer section -->
+    <div class="content">
         <div class="content-inside">
 
 
         </div>
-        </div>
-        <footer class="footer">
+    </div>
+    <footer class="footer">
 
-        </footer>
+    </footer>
 
+    <!-- jquery link section -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-
-        <!-- jquery link section -->
-        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
-
-    
-    
-
-
-        <!-- javascript link section -->
-        <script type="text/javascript" src="assets/javascript/game.js">
-        </script>
-    </body>
-    
-
-
-
-
+    <!-- javascript link section -->
+    <script type="text/javascript" src="assets/javascript/game.js">
+    </script>
+</body>
 
 </html>
